@@ -40,5 +40,7 @@ elif All == "YYNY":
     print("your number is 13")
 elif All == "YYYN":
     print("your number is 14")
-else:
+elif All == "YYYY":
     print("your number is 15")
+else:
+    print("Sorry, but we can't calculate this. plese check your inputs and rerun the program")
