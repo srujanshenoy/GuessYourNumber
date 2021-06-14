@@ -9,7 +9,7 @@ slide 1:
 Y = input("slide 2: \n2 3 6 7 10 11 14 15\n")
 
 Z = input("slide 3: \n4 5 6 7 12 13 14 15\n")
-W = input("slide 3: \n8 9 10 11 12 13 14 15\n")
+W = input("slide 4: \n8 9 10 11 12 13 14 15\n")
 All = W+Z+Y+X
 if All == "NNNN":
     print("your number is 0\nAm I right?\nBYE.") 
