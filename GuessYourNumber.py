@@ -1,6 +1,6 @@
-print("chose a number for 1 - 16 (0 is included and 16 is not.).")
+print("chose a number from 1 - 16 (0 is included and 16 is not.).")
 X = input(
-""" 
+    """ 
 (CASE SENSITEVE) Enter a capital Y if your number appears in a slide and a capital N if not.
 slide 1:
 1 3 5 7 9 11 13 15
@@ -12,7 +12,7 @@ Z = input("slide 3: \n4 5 6 7 12 13 14 15\n")
 W = input("slide 4: \n8 9 10 11 12 13 14 15\n")
 All = W+Z+Y+X
 if All == "NNNN":
-    print("your number is 0\nAm I right?\nBYE.") 
+    print("your number is 0\nAm I right?\nBYE.")
 elif All == "NNNY":
     print("your number is 1\nAm I right?\nBYE.")
 elif All == "NNYN":
@@ -26,7 +26,7 @@ elif All == "NYNY":
 elif All == "NYYN":
     print("your number is 6\nAm I right?\nBYE.")
 elif All == "NYYY":
-    print("your number is 7\nAm I right?\nBYE.") 
+    print("your number is 7\nAm I right?\nBYE.")
 elif All == "YNNN":
     print("your number is 8\nAm I right?\nBYE.")
 elif All == "YNNY":
