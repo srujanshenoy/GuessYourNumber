@@ -1,3 +1,21 @@
+# General format
+# replace (var) with the variable name
+
+#    (var) = input("slide (number): \n (numbers) \n")
+
+# Verify value of (var)
+# if (var) == "Y":
+#    (var) = 1
+# elif (var) == "N":
+#    (var) = 0
+# else:
+#    print("Oops! This input is not valid. Re-run the program")
+#    break
+
+# after this, you have to add a STR_(var) variable where var is the name of the variable.
+# and then add it to the All variable
+
+
 print("chose a number from 1 - 16 (0 is included and 16 is not.).")
 while True:
     X = input(
