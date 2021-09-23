@@ -60,4 +60,5 @@ slide 1:
     Their_Number = int(All, 2)
 
     # print it
-    print(f"your number is {Their_Number}\n am i right?\n anyway.. here we go again!")
+    print(
+        f"your number is {Their_Number}\n am i right?\n anyway.. here we go again!")
