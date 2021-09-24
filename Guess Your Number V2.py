@@ -3,23 +3,24 @@
 
 #    (var) = input("slide (number): \n (numbers) \n")
 
-## Verify value of (var)
-#if (var) == "Y":
+# Verify value of (var)
+# if (var) == "Y":
 #    (var) = 1
-#elif (var) == "N":
+# elif (var) == "N":
 #    (var) = 0
-#else:
+# else:
 #    print("Oops! This input is not valid. Re-run the program")
 #    break
 
-#after this, you have to add a STR_(var) variable where var is the name of the variable.
-#and then add it to the All variable
+# after this, you have to add a STR_(var) variable where var is the name of the variable.
+# and then add it to the All variable
 
 
 print("chose a number from 1 - 16 (0 is included and 16 is not.).")
 while True:
     X = input(
         """(CASE SENSITIVE) Enter a capital Y if your number appears in a slide and a capital N if not.
+        enter 0 to stop.
 slide 1:
 1 3 5 7 9 11 13 15
 """
@@ -30,6 +31,9 @@ slide 1:
         X = 1
     elif X == "N":
         X = 0
+    elif X == "0":
+        print("OK. We will stop. Bye Bye!")
+        break
     else:
         print("Oops! This input is not valid. Re-run the program")
         break
@@ -41,6 +45,9 @@ slide 1:
         Y = 1
     elif Y == "N":
         Y = 0
+    elif X == "0":
+        print("OK. We will stop. Bye Bye!")
+        break
     else:
         print("Oops! This input is not valid. Re-run the program")
         break
@@ -52,6 +59,9 @@ slide 1:
         Z = 1
     elif Z == "N":
         Z = 0
+    elif X == "0":
+        print("OK. We will stop. Bye Bye!")
+        break
     else:
         print("Oops! This input is not valid. Re-run the program")
         break
@@ -63,6 +73,9 @@ slide 1:
         W = 1
     elif W == "N":
         W = 0
+    elif X == "0":
+        print("OK. We will stop. Bye Bye!")
+        break
     else:
         print("Oops! This input is not valid. Re-run the program")
         break
@@ -78,4 +91,5 @@ slide 1:
     Their_Number = int(All, 2)
 
     # print it
-    print(f"your number is {Their_Number}\n am i right?\n anyway.. here we go again!")
+    print(
+        f"your number is {Their_Number}\n am i right?\n anyway.. here we go again!")
