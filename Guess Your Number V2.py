@@ -12,8 +12,14 @@
 #    print("Oops! This input is not valid. Re-run the program")
 #    break
 
-# after this, you have to add a STR_(var) variable where var is the name of the variable.
-# and then add it to the All variable
+
+# after this, you have to add an STR_(var) variable where var is the name of the variable.
+# before you add it to the All variable, you have to set the value to be
+# str((var))
+# where var is again, the name of the variable
+# then add it to the All
+# variable at the start of it because you are obviously going to be adding a bigger number to the program thus a
+# bigger place so it has to be at the start of a binary number thus corresponding to putting it at the start.
 
 
 print("chose a number from 1 - 16 (0 is included and 16 is not.).")
