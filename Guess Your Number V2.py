@@ -23,14 +23,14 @@
 
 
 print("chose a number from 1 - 16 (0 is included and 16 is not.).")
+print("""
+(CASE SENSITIVE) Enter a capital Y if your number appears in a slide and a capital N if not.
+enter 0 to stop.""")
 while True:
-    X = input(
-        """(CASE SENSITIVE) Enter a capital Y if your number appears in a slide and a capital N if not.
-        enter 0 to stop.
+    X = input("""
 slide 1:
 1 3 5 7 9 11 13 15
-"""
-    )
+""")
 
     # VERIFY VALUE OF X
     if X == "Y":
