@@ -30,7 +30,8 @@ while True:
     X = input("""
 slide 1:
 1 3 5 7 9 11 13 15
-""")
+"""
+              )
 
     # VERIFY VALUE OF X
     if X == "Y":
